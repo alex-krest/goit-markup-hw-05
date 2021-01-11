@@ -62,7 +62,7 @@
           <h1 class="hero-title">
             ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />ДЛЯ ВАШЕГО БИЗНЕСА
           </h1>
-          <button class="btn-hero" type="button">Заказать услугу</button>
+          <button class="btn-hero"  type="button"data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!------секция 2 list список---------------->
@@ -179,8 +179,7 @@
                     <svg class="social-icon">
                       <use
                         href="./sprite/sprite.svg#icon-linkedin-1"
-                      ></use></svg
-                  ></a>
+                      ></use></svg></a>
                 </li>
               </ul>
             </li>
@@ -200,30 +199,26 @@
                     <svg class="social-icon">
                       <use
                         href="./sprite/sprite.svg#icon-instagram-2"
-                      ></use></svg
-                  ></a>
+                      ></use></svg></a>
                 </li>
                 <li class="item-list">
                   <a class="social-link" href="">
                     <svg class="social-icon">
-                      <use href="./sprite/sprite.svg#icon-twitter-1"></use></svg
-                  ></a>
+                      <use href="./sprite/sprite.svg#icon-twitter-1"></use></svg></a>
                 </li>
                 <li class="item-list">
                   <a class="social-link" href="">
                     <svg class="social-icon">
                       <use
                         href="./sprite/sprite.svg#icon-facebook-1"
-                      ></use></svg
-                  ></a>
+                      ></use></svg></a>
                 </li>
                 <li class="item-list">
                   <a class="social-link" href="">
                     <svg class="social-icon">
                       <use
                         href="./sprite/sprite.svg#icon-linkedin-1"
-                      ></use></svg
-                  ></a>
+                      ></use></svg></a>
                 </li>
               </ul>
             </li>
@@ -243,30 +238,26 @@
                     <svg class="social-icon">
                       <use
                         href="./sprite/sprite.svg#icon-instagram-2"
-                      ></use></svg
-                  ></a>
+                      ></use></svg></a>
                 </li>
                 <li class="item-list">
                   <a class="social-link" href="">
                     <svg class="social-icon">
-                      <use href="./sprite/sprite.svg#icon-twitter-1"></use></svg
-                  ></a>
+                      <use href="./sprite/sprite.svg#icon-twitter-1"></use></svg></a>
                 </li>
                 <li class="item-list">
                   <a class="social-link" href="">
                     <svg class="social-icon">
                       <use
                         href="./sprite/sprite.svg#icon-facebook-1"
-                      ></use></svg
-                  ></a>
+                      ></use></svg></a>
                 </li>
                 <li class="item-list">
                   <a class="social-link" href="">
                     <svg class="social-icon">
                       <use
                         href="./sprite/sprite.svg#icon-linkedin-1"
-                      ></use></svg
-                  ></a>
+                      ></use></svg></a>
                 </li>
               </ul>
             </li>
@@ -286,30 +277,26 @@
                     <svg class="social-icon">
                       <use
                         href="./sprite/sprite.svg#icon-instagram-2"
-                      ></use></svg
-                  ></a>
+                      ></use></svg></a>
                 </li>
                 <li class="item-list">
                   <a class="social-link" href="">
                     <svg class="social-icon">
-                      <use href="./sprite/sprite.svg#icon-twitter-1"></use></svg
-                  ></a>
+                      <use href="./sprite/sprite.svg#icon-twitter-1"></use></svg></a>
                 </li>
                 <li class="item-list">
                   <a class="social-link" href="">
                     <svg class="social-icon">
                       <use
                         href="./sprite/sprite.svg#icon-facebook-1"
-                      ></use></svg
-                  ></a>
+                      ></use></svg></a>
                 </li>
                 <li class="item-list">
                   <a class="social-link" href="">
                     <svg class="social-icon">
                       <use
                         href="./sprite/sprite.svg#icon-linkedin-1"
-                      ></use></svg
-                  ></a>
+                      ></use></svg></a>
                 </li>
               </ul>
             </li>
@@ -413,10 +400,15 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
-		<div class="modal"><button type="button" class="close-btn"><svg class="icon-close"><use href="./imaiges-svg/close.svg"</use></svg>
+    <div class="backdrop is-hidden" data-modal>
+		<div class="modal">
+			<button type="button" class="close-btn" data-modal-close>
+				<svg class="icon-close" ><use href="./sprite/sprite.svg#close">
+				</use></svg>
 		</button>
 		</div>
-    </div>
+	 </div>
+	 <script src="./js/modal.js">
+	</script>
   </body>
 </html>
